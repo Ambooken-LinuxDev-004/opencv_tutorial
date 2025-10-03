@@ -1,0 +1,24 @@
+                                    ##### Read, Display and Save Image #####
+
+
+img = cv.imread('tiger.jpg') - to read an image and store it in a variable.
+NOTE:- img = cv.imread('tiger.jpg', 0) - stores image in gray-scale format. If 1 is placed, it stores the original image.
+
+cv.imshow("window_name", variable_containing_image) - to show/diaplay the image.
+e.g. cv.imshow("Image", img)
+
+cv.waitKey(milliseconds) - to display the image for this much time.
+
+cv.waitKey(0)
+cv.destroyAllWindows() - to display the image window until any key is pressed and it closes.
+
+
+cv.imwrite("image_filename", variable_containing_image) - to save an image
+e.g. cv.imwrite("new_img.jpg", img)
+
+
+
+                                    ##### Read, Display and Save Image #####
+
+
+
