@@ -18,7 +18,23 @@ e.g. cv.imwrite("new_img.jpg", img)
 
 
 
-                                    ##### Read, Display and Save Image #####
+                                    ##### Pixels, Resolution #####
+
+
+Expressed as width X height.
+
+Common resolutions - Full HD(1920 x 1080), 2K(2560x1440), 4K HD Ultra(3840x2160), 8K(7680x4320).
+
+Resolution = No. of Pixels = Width * Height
+
+Binary Image(BLACK & WHITE) - each pixel have only two possible values, Black(0) or White(1). [No shades of gray or intermediate values]. Number of bits required to represent each pixel is 1 Bit.
+
+NOTE:- In OpenCV, Binary Image is a Grayscale Image where each pixel have only two values - Black(0) or White(255). Number of bits required to represent each pixel is 8 Bits.
+
+Grayscale Image - intensity of each pixel determines it's brightness value. Each pixel have values that lie in the range(0-255), representing various shades of gray.
+
+Color Image - Each pixel containsintensity values of RGB color channels, and the combination produces the final color of the pixel. Each color channel is represented by an 8-bit value(0-255). Common color depths include 24-Bits(8-Bits per color channel).
+
 
 
 
