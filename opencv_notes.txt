@@ -2,6 +2,9 @@
 
 
 img = cv.imread('tiger.jpg') - to read an image and store it in a variable.
+
+NOTE:- The value stored in the variable after reading image is in NumPy array form.
+
 NOTE:- img = cv.imread('tiger.jpg', 0) - stores image in gray-scale format. If 1 is placed, it stores the original image.
 
 cv.imshow("window_name", variable_containing_image) - to show/diaplay the image.
@@ -35,6 +38,9 @@ Grayscale Image - intensity of each pixel determines it's brightness value. Each
 
 Color Image - Each pixel containsintensity values of RGB color channels, and the combination produces the final color of the pixel. Each color channel is represented by an 8-bit value(0-255). Common color depths include 24-Bits(8-Bits per color channel).
 
+
+
+                                    ##### Image Properties #####
 
 
 

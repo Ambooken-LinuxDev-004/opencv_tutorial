@@ -1,11 +1,9 @@
 import cv2 as cv
 
 
-img = cv.imread('tiger.jpg')
+img1 = cv.imread('hot-air-ballon.jpg', 0)
 
-cv.imshow("Bengal-Tiger", img)
-
-cv.imwrite("new_img.jpg", img)
+cv.imshow("Hot Air Ballon", img1)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
